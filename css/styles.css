@@ -1,0 +1,167 @@
+body {
+	font-size: 16px;
+	background-color: #FFFFFF;
+	font-family: Oxygen;
+}
+
+#header-nav {
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #00008B;
+	font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+  text-decoration: none;
+}
+
+.btn-outline-secondary {
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+.btn-success{
+	font-weight: bold;
+}
+
+.link-lists a {
+	text-align: center;
+	color: #000000;
+	font-weight: 500;
+}
+
+.link-lists a:hover {
+	background-color: #E7E7E7;
+}
+
+button.navbar-toggler {
+	border: 1px solid #61122f;
+	font-size: 3vw;
+}
+
+
+@media (min-width: 1200px) {
+  .container .bg-lights {
+	background: url('../images/novita-mondo-social-facebook-instagram-whatsapp-1024x576.jpg') no-repeat;
+	height: 675px;
+	background-size: cover;
+	background-position: center;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.container .bg-lights {
+	background: url('../images/novita-mondo-social-facebook-instagram-whatsapp-1024x576.jpg') no-repeat;
+	height: 558px;
+	background-size: cover;
+	background-position: center;
+}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.container .bg-lights {
+	background: url('../images/novita-mondo-social-facebook-instagram-whatsapp-1024x576.jpg') no-repeat;
+	height: 558px;
+	background-size: cover;
+	background-position: center;
+}
+}
+
+
+
+
+
+div.transbox {
+
+}
+
+
+div.transbox p {
+	position: absolute;
+margin-left: auto;
+margin-right: auto;
+
+left: 0;
+right: 0;
+top: 0;
+text-align: center;
+	color: #00008B;
+	font-size: 4vw;
+  font-weight: 900;
+  text-shadow: 0px 2px, 2px 0px, 2px 2px;
+
+}
+
+
+#main-content {
+	position: relative;
+}
+
+.container .bg-lights {
+	opacity: 0.6;
+}
+
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+
+div.transbox p {
+  text-shadow: 0px 0px, 0px 0px, 0px 0px;
+}
+}
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #00008B;
+	color: white;
+	border-top: 0;
+}
+
+#developer, #vehicle, #company {
+	line-height: 2;
+}
+
+#developer>span, #vehicle>span, #company>span {
+	font-size: 1.3em;
+}
+@media (max-width: 768px) {
+	.container .bg-lights {
+	background: url('../images/novita-mondo-social-facebook-instagram-whatsapp-1024x576.jpg') no-repeat;
+	height: 450px;
+	background-size: cover;
+	background-position: center;
+}
+
+	.navbar-brand h1 {
+		font-size: 5vw;
+	}
+	div.transbox p {
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+.panel-footer section{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.panel-footer section hr {
+		width: 50%;
+		margin: auto;
+	}
+}
+#other p {
+	color: #557c3e;
+	font-size: .8em;
+}
